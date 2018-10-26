@@ -1,0 +1,32 @@
+helo  i em 35 year old men form somali. i selled wife for intrnet conection end i want get golabal elit 2 pls buust mi end donot copy pasterino me tori.
+iso
+w   ett ord framåt
+b   ett ord bakåt
+G   bottnet av filen
+gg  toppen av filen
+0   början av raden
+$   sluten av raden
+
+
+man kan modifiera movements med tal, prova t.ex. 2w
+
+Exempel på actions:
+i       insert mode vid kursorn
+I       Insert vid början av raden
+a       append, insert mode vid bokstav till höger av kursorn
+A       Append, insert mode vid slutet av raden
+o       insert mode en rad under, skapa ny rad
+O       insert en rad ovan för, skapa ny rad 
+
+d       delete , radera text, krever en movement. radera allt mellan kursorn och vart den flyttar sig
+dd      radera en rad
+d3d     raderar tre rader 
+D       raderar till slutet av raden
+
+u       undo
+Ctrl+R  redo
+.       gör om förra kommando
+
+/       sök ord
+f       sök bokstav framåt
+F       sök bokstav bakåt framåt 
